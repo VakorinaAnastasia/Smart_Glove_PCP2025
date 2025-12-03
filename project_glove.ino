@@ -3,9 +3,9 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-// Настройки WiFi - заменить на свое
-const char* ssid = "HONOR X8c";
-const char* password = "09876543";
+// Настройки WiFi
+const char* ssid = "сеть";
+const char* password = "пароль";
 
 // Настройки MQTT брокера
 const char* mqtt_server = "broker.emqx.io";
@@ -712,3 +712,4 @@ void connectToMQTT() {
 void reconnectMQTT() {
   connectToMQTT();
 }
+
