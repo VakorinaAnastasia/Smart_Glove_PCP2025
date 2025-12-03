@@ -3,8 +3,8 @@
 #include <FastLED.h>
 
 // WiFi настройки
-const char* ssid = "HONOR X8c";
-const char* password = "09876543";
+const char* ssid = "сеть";
+const char* password = "пароль";
 
 // MQTT настройки
 const char* mqtt_server = "broker.emqx.io";
@@ -289,3 +289,4 @@ void setupWiFi() {
     Serial.println("\nНе удалось подключиться к WiFi!");
   }
 }
+
